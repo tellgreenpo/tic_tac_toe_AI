@@ -1,4 +1,3 @@
-import os
 # J'ai pique les fonctions que tu as fais
 def Rotation (T) :
     L0 = [T[2][0], T[1][0], T[0][0]]
