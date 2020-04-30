@@ -1,6 +1,6 @@
 Morpion IA
 
-*Utilisation  de IA_Morpion2*
+<b>Utilisation  de IA_Morpion2</b>
 
 Une classe ia est definie, le code contient des methodes associees. Pour utiliser la classe, il faut creer un objet ia.
 <b>a = ia()</b>
