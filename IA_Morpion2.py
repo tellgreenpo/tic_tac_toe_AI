@@ -77,3 +77,19 @@ class IA:
         self.previous_state = tableau
         self.previous_choice = choice
         return choice
+
+    def export(self):
+        memory = open('data_memory_morpion.txt', 'w')
+        memory.write(self.tbl_memory)
+        memory.close()
+        positions = open('data_positions_morpion.txt', 'w')
+        positions.write(self.tbl_positions)
+        positions.close()
+
+    def download(self):
+        memory = open('data_memory_morpion.txt', 'r')
+        self.tbl_memory = memory.read()
+        memory.close()
+        positions = open('data_positions_morpion.txt', 'r')
+        self.tbl_positions = positions.read()
+        positions.close()
