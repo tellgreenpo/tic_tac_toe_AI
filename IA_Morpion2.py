@@ -20,7 +20,6 @@ class IA:
             colonne = self.previous_choice[1]
             self.tbl_memory[index][ligne][colonne] = 0
 
-
     def case_occupee(self,tableau):
         i = self.indice(tableau)
         for line in [0,1,2]:
