@@ -11,6 +11,6 @@ Pour plus d'infos : https://docs.python.org/fr/3/tutorial/classes.html
 
 *Contenu*
 
-Il y a 4 fonctions en plus du __init__, les deux qui seront utilises explicitement seront surement *a_choix* et *add_inconnu*
-le reste permet de faire fonctionner ces deux la. Elles prennent toutes les deux un tableau de jeu de morpion comme argument afin
-de pouvoir les utiliser directement dans le jeu.
+Il y a 5 fonctions en plus du __init__, les deux qui seront utilises explicitement seront surement *a_choix* et *add_inconnu*
+avec l'importation et sauvegarde de la memoire sous un fichier .txt le reste permet de faire fonctionner ces deux la.
+Elles prennent toutes les deux un tableau de jeu de morpion comme argument afin de pouvoir les utiliser directement dans le jeu.
