@@ -1,10 +1,10 @@
 Morpion IA
 
-*Utilisation  de IA_Morpion2.py*
+*Utilisation  de IA_Morpion2*
 
 Une classe ia est definie, le code contient des methodes associees. Pour utiliser la classe, il faut creer un objet ia.
-*a = ia()*
-Ensuite pour invoquer une methode associee: *a.methode()* sans mettre le parametre self qui permet d'indiquer que c'est
+<b>a = ia()</b>
+Ensuite pour invoquer une methode associee: <b>a.methode()</b> sans mettre le parametre self qui permet d'indiquer que c'est
 une methode.
 
 Pour plus d'infos : https://docs.python.org/fr/3/tutorial/classes.html
