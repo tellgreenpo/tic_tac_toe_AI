@@ -25,6 +25,8 @@ fini, le processus se repete.
 Il est possible de sauvegarder la memoire dans un fichier txt a la fin du jeu ou de la telecharger au debut afin de pouvoir conserver
 une trace et ne pas perdre le progres dès que le programme est relancé.
 
+morpion.py n'a pas été encore testé...
+
 <b>Pour la suite</b>
 
-Creer un entrainement pour l'ordinateur et peut-etre rajouter les rotations pour qu'il apprenne plus vite... Peut-etre un arbre?...
+Creer un entrainement pour l'ordinateur et peut-etre rajouter les rotations pour qu'il apprenne plus vite... Peut-etre un arbre...
