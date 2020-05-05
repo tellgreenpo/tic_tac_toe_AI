@@ -87,9 +87,10 @@ class IA:
         positions.close()
 
     def download(self):
+        # modif on rajoute eval pour etre sur de recuperer la bonne structure de donnees
         memory = open('data_memory_morpion.txt', 'r')
-        self.tbl_memory = memory.read()
+        self.tbl_memory = eval(memory.read())
         memory.close()
         positions = open('data_positions_morpion.txt', 'r')
-        self.tbl_positions = positions.read()
+        self.tbl_positions = eval(positions.read())
         positions.close()
